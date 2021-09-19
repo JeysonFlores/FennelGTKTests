@@ -16,9 +16,9 @@
 (welcome:append "applications-development" "LGI Bindings" "GTK Bindings for Lua.")              
 (tset welcome :on_activated (fn [object index] 
                                 (if (= index 0)
-                                    (os.execute "xdg-open https://fennel-lang.org/")
+                                        (os.execute "xdg-open https://fennel-lang.org/")
                                     (= index 1)
-                                    (os.execute "xdg-open https://github.com/pavouk/lgi"))))
+                                        (os.execute "xdg-open https://github.com/pavouk/lgi"))))
 
 ; Alternative Way to define a function signal
 ;(fn welcome.on_activated [object index]
