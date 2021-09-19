@@ -8,9 +8,9 @@
                 :default_width 400 
                 :default_height 400 }))
 
-(local accel_label (Granite.AccelLabel { :label "Hello World!" }))
+(local accel-label (Granite.AccelLabel { :label "Hello World!" }))
 
-(window:add accel_label)
+(window:add accel-label)
 (tset window :on_delete_event (lambda [] (Gtk.main_quit)))
 (window:show_all)
 (Gtk.main)
