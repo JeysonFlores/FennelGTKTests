@@ -3,7 +3,7 @@
 (local Granite (lgi.require "Granite"))
 
 (local window (Gtk.Window {
-                :title "WelcomeTest" 
+                :title "AlertViewTest" 
                 :default_width 400 
                 :default_height 400 }))
 
