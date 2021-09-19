@@ -2,7 +2,7 @@
 (local Gtk (lgi.require "Gtk"))
 
 (local window (Gtk.Window {
-                :title "Fennel" 
+                :title "ButtonTest" 
                 :default_width 400 
                 :default_height 400 }))
 
