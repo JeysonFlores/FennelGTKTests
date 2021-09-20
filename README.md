@@ -12,3 +12,4 @@ These tests are written in order to see how Fennel manages Lua's tables and how 
     - MessageDialogTest.fnl
     - WelcomeTest.fnl
     - HandyWindowTest.fnl
+    . DatePickerTest.fnl 
