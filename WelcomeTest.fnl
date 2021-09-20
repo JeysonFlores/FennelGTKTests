@@ -3,7 +3,7 @@
 (local Granite (lgi.require "Granite"))
 
 
-(local window (Gtk.Window {
+(var window (Gtk.Window {
                 :title "WelcomeTest" 
                 :default_width 400 
                 :default_height 400 }))
@@ -20,7 +20,7 @@
                                     (= index 1)
                                         (os.execute "xdg-open https://github.com/pavouk/lgi"))))
 
-; Alternative Way to define a function signal
+; Alternative way to define a function signal
 ;(fn welcome.on_activated [object index]
 ;    (print index))
 
