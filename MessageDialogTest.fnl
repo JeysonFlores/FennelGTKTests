@@ -7,6 +7,7 @@
                 :title "MessageDialogTest" 
                 :default_width 400 
                 :default_height 400 }))
+                
 (var button (Gtk.Button { :label "Open a Dialog" }))
 (tset button :on_clicked (fn []
                             (var dialog (Granite.MessageDialog {
