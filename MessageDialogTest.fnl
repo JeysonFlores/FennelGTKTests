@@ -1,13 +1,13 @@
 (local lgi (require :lgi))
 (local Gtk (lgi.require "Gtk"))
 (local Granite (lgi.require "Granite"))
-(local GLib (lgi.require "GLib"))
+
 
 (var window (Gtk.Window {
                 :title "MessageDialogTest" 
                 :default_width 400 
                 :default_height 400 }))
-                
+
 (var button (Gtk.Button { :label "Open a Dialog" }))
 (tset button :on_clicked (fn []
                             (var dialog (Granite.MessageDialog {
